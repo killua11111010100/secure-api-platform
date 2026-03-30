@@ -8,10 +8,12 @@ const rateLimit = require("express-rate-limit");
 const pool = require("./src/config/db");
 const initDb = require("./src/config/initDb");
 
+
 const authRoutes = require("./src/routes/auth.routes");
 const protectedRoutes = require("./src/routes/protected.routes");
 const errorHandler = require("./src/middleware/errorHandler");
 const cookieParser = require("cookie-parser");
+
 
 const app = express();
 

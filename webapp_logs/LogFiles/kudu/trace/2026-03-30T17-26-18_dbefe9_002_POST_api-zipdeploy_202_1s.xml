@@ -1,0 +1,17 @@
+<step title="Incoming Request" date="2026-03-30T17:26:18.520" instance="dbefe9" url="/api/zipdeploy?isAsync=true" method="POST" type="request" pid="831,1,5" Accept="*/*" Host="secureapi-edwar-2026.scm.azurewebsites.net" User-Agent="AZURECLI/2.84.0 (HOMEBREW)" Accept-Encoding="gzip, deflate" Authorization="Bea..." Cache-Control="no-cache" Content-Type="application/octet-stream" Content-Length="34921" x-ms-client-request-id="83737490-2c5d-11f1-8b02-a6b0b011dfc1" x-ms-artifact-checksum="7505ae82a97cd84976068cc0b3f077a8585d1031a6e82cc1761cce8dc89551ca" X-ARR-LOG-ID="83737490-2c5d-11f1-8b02-a6b0b011dfc1" CLIENT-IP="166.48.192.100:51856" X-SITE-DEPLOYMENT-ID="secureapi-edwar-2026" WAS-DEFAULT-HOSTNAME="secureapi-edwar-2026.scm.azurewebsites.net" X-Forwarded-Proto="https" X-AppService-Proto="https" X-Forwarded-TlsVersion="1.3" X-WAWS-Unencoded-URL="/api/zipdeploy?isAsync=true" X-Client-IP="166.48.192.100" X-Client-Port="51856" >
+  <step title="ZipPushDeploy" date="2026-03-30T17:26:18.911" >
+    <step title="ZipDeploy. Extract zip." date="2026-03-30T17:26:18.917" /><!-- duration: 9ms -->
+    <step title="None repository commit" date="2026-03-30T17:26:18.932" >
+      <step title="Commit id: 99f46035-6899-463f-91cc-c60b9c9ad593" date="2026-03-30T17:26:18.935" Message="N/A" AuthorName="N/A" AuthorEmail="N/A" /><!-- duration: 3ms -->
+    </step><!-- duration: 9ms -->
+    <step title="Starting PushDeployAsync" date="2026-03-30T17:26:18.943" /><!-- duration: 3ms -->
+    <step title="Writing artifact to /tmp/zipdeploy/079413aa-ccd1-4aa1-bb96-95d75920dcbd.zip" date="2026-03-30T17:26:18.957" >
+      <step title="Writing multipart request body to /tmp/zipdeploy/079413aa-ccd1-4aa1-bb96-95d75920dcbd.zip" date="2026-03-30T17:26:18.961" /><!-- duration: 3ms -->
+    </step><!-- duration: 27ms -->
+    <step title="Start deployment in the background" date="2026-03-30T17:26:19.031" >
+      <step title="Acquiring Deployment Lock" date="2026-03-30T17:26:19.055" /><!-- duration: 3ms -->
+      <step title="Acquired Deployment Lock" date="2026-03-30T17:26:19.191" /><!-- duration: 3ms -->
+    </step><!-- duration: 302ms -->
+  </step><!-- duration: 427ms -->
+  <step title="Outgoing response" date="2026-03-30T17:26:19.357" type="response" statusCode="202" statusText="Accepted" /><!-- duration: 4ms -->
+</step><!-- duration: 844ms -->
