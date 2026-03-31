@@ -22,7 +22,9 @@
     "helmet": "^8.1.0",
     "joi": "^18.0.2",
     "jsonwebtoken": "^9.0.3",
-    "pg": "^8.18.0"
+    "pg": "^8.18.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^10.0.2",
