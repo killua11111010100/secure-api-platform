@@ -13,6 +13,8 @@ const authRoutes = require("./src/routes/auth.routes");
 const protectedRoutes = require("./src/routes/protected.routes");
 const errorHandler = require("./src/middleware/errorHandler");
 const cookieParser = require("cookie-parser");
+const swaggerUi = require("swagger-ui-express");
+const swaggerSpec = require("./src/config/swagger");
 
 
 const app = express();
@@ -56,6 +58,7 @@ app.get("/health", async (req, res) => {
 
 app.use("/auth", authRoutes);
 app.use("/protected", protectedRoutes);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 /* =====================
    Error handler (only one)
